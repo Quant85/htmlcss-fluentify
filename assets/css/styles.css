@@ -37,6 +37,7 @@
 }
 
 a.nav_item, .nav_link{
+  color: rgb(255,255,255);
   text-decoration: none;
 }
 /* Utility Class */
@@ -92,7 +93,8 @@ div.col_2{
 .bt_plan_down{
   margin-top: 20px;
   padding: 20px;
-  background-color: #7FFF00;
+  background-color: #7fb802;
+  border-radius: 5px;
 }
 
 .row_message{
@@ -173,4 +175,23 @@ footer{
   height: 135px;
   background-color: #f9f9f9;
   line-height: 135px;
+}
+
+.help_bt{
+  position: fixed;
+  background-color: rgb(123, 188, 0);
+  border-color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-decoration: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  padding: 8px 10px 21px;
+  z-index: 10;
+  bottom: -12px;
+  right: 200px;
+}
+
+.help_bt:hover{
+  bottom: -7px;
 }
