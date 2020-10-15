@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility Class */
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.flt_l{
+  float: left;
+}
+.flt_r{
+  float: right;
+}
+
+.txt_al_l{
+  text-align: left;
+}
+
+.txt_al_r{
+  text-align: right;
+}
+
+.bg_nr{
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+a.nav_item, .nav_link{
+  text-decoration: none;
+}
+/* Utility Class */
+
+
+#header_home{
+  height: 550px;
+  background: #0d325a;
+}
+
+#menu{
+  width: 100%;
+  background-color: #7fb802;
+  padding: 20px 0%;
+  margin: auto;
+}
+
+div.col_2{
+  width: 20%;
+}
+
+.col_5{
+  width: 40%;
+}
+
+.header_main{
+  width: 100%;
+  height: 468.5px;
+  background-color: #8A2BE2;
+}
+
+.col_6{
+  width: 50%;
+}
+
+.header_main{
+  background-image: url("../img/header/banner_header.png");
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: 140% 120%;
+  overflow: hidden;
+  position: relative;
+}
+
+.header_main_text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header_main_text > h1{
+  width: 50%;
+}
+.bt_plan_down{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #7FFF00;
+}
+
+.row_message{
+  height: 150px;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 30px 0px 20px;
+  position: relative;
+}
+
+.row_message > .col_12{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+main{
+  background-color: cyan;
+  position: relative;
+}
+
+#main_info{
+  height: 520px;
+  background-color: orange;
+  border-bottom: 5px solid #e5e5e5;
+}
+
+.list_info{
+  height: 515px;
+  background-color: coral;
+}
+
+.list_info > .col_4{
+  width: calc(100% / 3);
+  padding: 20px;
+  list-style: none;
+}
+
+.img_wrap{
+  height:  160px;
+  background-size: contain;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.img_wrap.computer{
+  background-image: url("../img/main/info/computer.svg");
+}
+
+.img_wrap.doc{
+  background-image: url("../img/main/info/doc.svg");
+}
+
+.img_wrap.profile{
+  background-image: url("../img/main/info/profile.svg");
+}
+
+#main_plan{
+  height: 450px;
+
+}
+div.plan_img.col_6{
+  width: 50%;
+  height: 450px;
+  background-color: aliceblue;
+  background-position: center;
+  background-image: url("../img/main/plan/mountain.svg");
+}
+div.plan_text.col_6{
+  width: 50%;
+  height: 450px;
+  padding: 80px 90px;
+  background-color: grey;
+}
+
+footer{
+  height: 135px;
+  background-color: #f9f9f9;
+  line-height: 135px;
+}
