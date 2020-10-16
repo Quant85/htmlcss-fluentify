@@ -54,10 +54,11 @@ hr{
 /* HEADER */
 
 #header_home{
+  min-width: 1440px;
   background: #0d325a;
   background-image: url("../img/header/banner_header.png");
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 1000px;
   background-position: 110% 110%;
   position: relative;
 }
@@ -128,6 +129,7 @@ div > a.bt_plan{
 }
 .header_main_text > h1{
   width: 70%;
+  min-width: 600px;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
