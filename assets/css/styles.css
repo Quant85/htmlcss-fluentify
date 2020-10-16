@@ -51,10 +51,14 @@ hr{
 
 /* Utility Class */
 
+body{
+  min-width: 1440px;
+}
+
 /* HEADER */
 
 #header_home{
-  min-width: 1440px;
+
   background: #0d325a;
   background-image: url("../img/header/banner_header.png");
   background-repeat: no-repeat;
