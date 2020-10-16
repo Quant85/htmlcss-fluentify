@@ -199,6 +199,7 @@ main{
 }
 
 .col_4 > h2{
+  min-width: 360px;
   min-height: 50px;
   color: #7fb802;
   font-weight: 500;
